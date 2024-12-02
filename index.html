@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="estilo.css"/>
-  <title>EDUCACION EN JUCHITAN</title>
+  <title>Arte y Cultura</title>
 </head>
 <style>
   body {
@@ -98,6 +98,7 @@ button {
   font-size: 1.2rem;
   padding: 10px;
   margin: 10px;
+  margin-left:250px;
   background-color: yellow;
   border: none;
   border-radius: 5px;
@@ -170,10 +171,15 @@ button {
     <h1>CBTIS 205 ARTE Y CULTURA</h1><button onclick="mostrar()">☰Menu</button>
   </div>
     <div id="menu">
-      <button id="opcion" onclick="EC()">Escuela charis</button><br>
-      <button id="opcion" onclick="EJ()">ESCUELA JUCHITAN</button><br>
-      <button id="opcion" onclick="SP()">SIMBOLOS PATRIOS</button><br>
-      <button id="opcion" onclick="C()">CBTIS 205</button><br>
+      <button id="opcion" onclick="ac()">Artes y Cultura</button><br>
+      <button id="opcion" onclick="oa()">Objetos Artisticos</button><br>
+      <button id="opcion" onclick="m()">Musica</button><br>
+      <button id="opcion" onclick="e()">Estatuas</button><br>
+      <button id="opcion" onclick="p()">Pinturas</button><br>
+      <button id="opcion" onclick="l()">Lengua</button><br>
+      <button id="opcion" onclick="d()">Diversidad</button><br>
+      <button id="opcion" onclick="ic()">Identidad cultural</button><br>
+      <button id="opcion" onclick="cv()">Creencias y valores</button><br>
       <button id="opcion" onclick="alumnos()">alumnos</button>
     </div>
     <img id="foto"src="https://blob.cuartopoder.mx/images/2020/03/01/a4-17_1_1_642_482_0_0_0_0.jpg"width="25%"/>
@@ -312,7 +318,7 @@ button {
         {menu.style.display="none";}
         else {menu.style.display="block";}
       document.querySelector('h1').textContent = "CBTIS 205 ALUMNOS";
-      document.querySelector('p').textContent = "Anais Lopez Hernándes,Orozco Almaraz Victoria Juliet,Jhoana Orozco Lopez,Sharon Alondra Jimenez Celis";
+      document.querySelector('p').textContent = "Profesor:Florentino Luis Lopez,-------Integrantes:Jose juventino Robledo Santiago,angel francisco Sánchez Agustín,luis david Rodríguez suarez,andres Jiménez diaz,Benjamin yael Cabrera Sánchez";
       document.getElementById('foto').src="";
     }
   </script>
